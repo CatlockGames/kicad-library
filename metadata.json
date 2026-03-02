@@ -20,8 +20,7 @@
         {
             "version": "1.0.0",
             "status": "stable",
-            "kicad_version": "9.0",
-            "download_url": "https://github.com/CatlockGames/kicad-library/archive/refs/heads/main.zip"
+            "kicad_version": "9.0"
         }
     ]
 }
