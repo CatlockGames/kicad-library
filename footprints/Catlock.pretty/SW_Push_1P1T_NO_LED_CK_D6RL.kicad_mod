@@ -68,22 +68,6 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2.5 -2.5)
-		(size 1.7 1.7)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a226dc35-2614-46f1-b126-bc6e8ca577a3")
-	)
-	(pad "1" thru_hole circle
-		(at 2.5 -2.5)
-		(size 1.7 1.7)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "38dffeaf-667e-4565-a238-49607ade315a")
-	)
-	(pad "2" thru_hole circle
 		(at -2.5 2.5)
 		(size 1.7 1.7)
 		(drill 1.2)
@@ -91,13 +75,29 @@
 		(remove_unused_layers no)
 		(uuid "fd6462f2-1e51-45f6-bdb8-5e3eea46b69e")
 	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 2.5 2.5)
 		(size 1.7 1.7)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7240d5a8-ce28-4d28-9e83-895597da4f7a")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a226dc35-2614-46f1-b126-bc6e8ca577a3")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38dffeaf-667e-4565-a238-49607ade315a")
 	)
 	(pad "3" thru_hole circle
 		(at -3.1 0)
@@ -116,4 +116,15 @@
 		(uuid "0cc41e97-6081-4977-98cd-940b530644b3")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_CatlockGames_kicad-library/Button_Switch_THT.3dshapes/SW_Push_1P1T_NO_LED_CK_D6RL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
